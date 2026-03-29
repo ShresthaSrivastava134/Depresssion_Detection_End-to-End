@@ -16,7 +16,6 @@ The repository also includes a Streamlit application for inference and an experi
 - [model.ipynb](model.ipynb): Colab-only training notebook.
 - [dataset.csv](dataset.csv): Dataset used for training.
 - [requirements.txt](requirements.txt): Runtime dependencies.
-- [requirements-dev.txt](requirements-dev.txt): Development-only dependencies.
 
 ## Recommended Workflow
 
@@ -64,12 +63,6 @@ Upgrade `pip` and install the runtime dependencies:
 ```powershell
 python -m pip install --upgrade pip
 pip install -r requirements.txt
-```
-
-If you also want the development tools:
-
-```powershell
-pip install -r requirements-dev.txt
 ```
 
 ## Running the Streamlit Application
